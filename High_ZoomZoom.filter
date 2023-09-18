@@ -1,7 +1,7 @@
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile
 #===============================================================================================================
-# VERSION:  8.11.1
+# VERSION:  8.11.2
 # TYPE:     1-REGULAR
 # STYLE:    DEFAULT
 # AUTHOR:   NeverSink
@@ -2673,17 +2673,17 @@ Show # %D5 $type->exotic->synthesised $tier->synthrandom
 #	PlayEffect Blue
 #	MinimapIcon 1 Blue Diamond
 
-Show # %D5 $type->exotic->fractured $tier->fractt2
-FracturedItem True
-Mirrored False
-Rarity Normal Magic Rare
-BaseType == "Ambush Boots" "Ambush Mitts" "Ambusher" "Ancient Gauntlets" "Ancient Greaves" "Ancient Spirit Shield" "Angelic Kite Shield" "Antique Gauntlets" "Antique Greaves" "Arcanist Gloves" "Artillery Quiver" "Assassin Bow" "Baroque Round Shield" "Battle Buckler" "Behemoth Mace" "Blazing Arrow Quiver" "Blood Sceptre" "Blunt Arrow Quiver" "Bone Bow" "Bone Ring" "Branded Kite Shield" "Brass Spirit Shield" "Breach Ring" "Bronze Tower Shield" "Bronzescale Boots" "Bronzescale Gauntlets" "Calling Wand" "Carnal Mitts" "Carved Wand" "Ceremonial Kite Shield" "Cerulean Ring" "Chain Belt" "Chain Boots" "Chiming Spirit Shield" "Clasped Boots" "Clasped Mitts" "Cloth Belt" "Coiled Wand" "Colossus Mallet" "Compound Spiked Shield" "Conjurer Boots" "Conjurer Gloves" "Coral Amulet" "Coronal Leather" "Coronal Maul" "Corrugated Buckler" "Corsair Sword" "Crested Tower Shield" "Crimson Raiment" "Crimson Round Shield" "Crusader Plate" "Crypt Armour" "Cutthroat's Garb" "Deerskin Boots" "Deerskin Gloves" "Demon Dagger" "Desert Brigandine" "Destiny Leather" "Dragonbone Rapier" "Dragonscale Doublet" "Dragoon Sword" "Ebony Tower Shield" "Eclipse Staff" "Eelskin Boots" "Eelskin Gloves" "Elegant Ringmail" "Enameled Buckler" "Engraved Wand" "Etched Kite Shield" "Eternal Sword" "Exquisite Blade" "Eye Gouger" "Ezomyte Burgonet" "Ezomyte Dagger" "Faun's Horn" "Fencer Helm" "Fiend Dagger" "Fleshripper" "Gilded Buckler" "Gladiator Plate" "Glorious Leather" "Goathide Gloves" "Gold Amulet" "Gold Ring" "Golden Buckler" "Golden Plate" "Goliath Gauntlets" "Great Crown" "Grinning Fetish" "Grove Bow" "Harlequin Mask" "Hellion's Paw" "Highborn Bow" "Horned Sceptre" "Hunter Hood" "Imp Dagger" "Imperial Skean" "Imperial Staff" "Infernal Axe" "Iron Ring" "Ironscale Boots" "Ironscale Gauntlets" "Ivory Bow" "Ivory Spirit Shield" "Jewelled Foil" "Jingling Spirit Shield" "Judgement Staff" "Karui Chopper" "Lacewood Spirit Shield" "Lacquered Garb" "Lacquered Helmet" "Laminated Kite Shield" "Layered Kite Shield" "Lead Sceptre" "Legion Boots" "Legion Gloves" "Lion Sword" "Maelström Staff" "Magistrate Crown" "Mahogany Tower Shield" "Maple Round Shield" "Meatgrinder" "Mesh Boots" "Mind Cage" "Moonstone Ring" "Mosaic Kite Shield" "Necromancer Circlet" "Noble Tricorne" "Nubuck Boots" "Nubuck Gloves" "Oak Buckler" "Occultist's Vestment" "Ochre Sceptre" "Ornate Spiked Shield" "Paua Amulet" "Paua Ring" "Penetrating Arrow Quiver" "Plated Greaves" "Polished Spiked Shield" "Prismatic Ring" "Prophet Crown" "Quartz Sceptre" "Quartz Wand" "Ranger Bow" "Rawhide Gloves" "Reaver Helmet" "Regicide Mask" "Reinforced Greaves" "Ringmail Boots" "Ritual Sceptre" "Riveted Boots" "Royal Sceptre" "Royal Skean" "Runic Hatchet" "Rustic Sash" "Sage Wand" "Samite Gloves" "Samite Slippers" "Samnite Helmet" "Satin Slippers" "Scholar Boots" "Seaglass Amulet" "Secutor Helm" "Sekhem" "Sentinel Jacket" "Serpentscale Gauntlets" "Shackled Boots" "Shadow Sceptre" "Shagreen Tower Shield" "Sharkskin Gloves" "Sharkskin Tunic" "Sharktooth Arrow Quiver" "Siege Helmet" "Slaughter Knife" "Solaris Circlet" "Soldier Boots" "Soldier Gloves" "Spiked Round Shield" "Spike-Point Arrow Quiver" "Spiraled Foil" "Spiraled Wand" "Splendid Round Shield" "Stag Sceptre" "Steel Circlet" "Steel Kite Shield" "Steelscale Boots" "Steelscale Gauntlets" "Steelwood Bow" "Strapped Boots" "Strapped Mitts" "Studded Belt" "Sundering Axe" "Teak Round Shield" "Terror Claw" "Thorium Spirit Shield" "Throat Stabber" "Trapper Boots" "Trapper Mitts" "Two-Point Arrow Quiver" "Tyrant's Sekhem" "Ursine Pelt" "Vaal Axe" "Vaal Hatchet" "Varnished Coat" "Vile Arrow Quiver" "Void Axe" "Walnut Spirit Shield" "War Buckler" "Widowsilk Robe" "Wolf Pelt" "Zealot Boots" "Zealot Gloves"
-Corrupted False
-SetFontSize 30
-SetBorderColor 0 240 190 255
-PlayAlertSound 3 300
-PlayEffect Blue
-MinimapIcon 2 Blue Diamond
+#Show # # %D5 $type->exotic->fractured $tier->fractt2
+#	FracturedItem True
+#	Mirrored False
+#	Rarity Normal Magic Rare
+#	BaseType == "Ambush Boots" "Ambush Mitts" "Ambusher" "Ancient Gauntlets" "Ancient Greaves" "Ancient Spirit Shield" "Angelic Kite Shield" "Antique Gauntlets" "Antique Greaves" "Arcanist Gloves" "Artillery Quiver" "Assassin Bow" "Baroque Round Shield" "Battle Buckler" "Behemoth Mace" "Blazing Arrow Quiver" "Blood Sceptre" "Blunt Arrow Quiver" "Bone Bow" "Bone Ring" "Branded Kite Shield" "Brass Spirit Shield" "Breach Ring" "Bronze Tower Shield" "Bronzescale Boots" "Bronzescale Gauntlets" "Calling Wand" "Carnal Mitts" "Carved Wand" "Ceremonial Kite Shield" "Cerulean Ring" "Chain Belt" "Chain Boots" "Chiming Spirit Shield" "Clasped Boots" "Clasped Mitts" "Cloth Belt" "Coiled Wand" "Colossus Mallet" "Compound Spiked Shield" "Conjurer Boots" "Conjurer Gloves" "Coral Amulet" "Coronal Leather" "Coronal Maul" "Corrugated Buckler" "Corsair Sword" "Crested Tower Shield" "Crimson Raiment" "Crimson Round Shield" "Crusader Plate" "Crypt Armour" "Cutthroat's Garb" "Deerskin Boots" "Deerskin Gloves" "Demon Dagger" "Desert Brigandine" "Destiny Leather" "Dragonbone Rapier" "Dragonscale Doublet" "Dragoon Sword" "Ebony Tower Shield" "Eclipse Staff" "Eelskin Boots" "Eelskin Gloves" "Elegant Ringmail" "Enameled Buckler" "Engraved Wand" "Etched Kite Shield" "Eternal Sword" "Exquisite Blade" "Eye Gouger" "Ezomyte Burgonet" "Ezomyte Dagger" "Faun's Horn" "Fencer Helm" "Fiend Dagger" "Fleshripper" "Gilded Buckler" "Gladiator Plate" "Glorious Leather" "Goathide Gloves" "Gold Amulet" "Gold Ring" "Golden Buckler" "Golden Plate" "Goliath Gauntlets" "Great Crown" "Grinning Fetish" "Grove Bow" "Harlequin Mask" "Hellion's Paw" "Highborn Bow" "Horned Sceptre" "Hunter Hood" "Imp Dagger" "Imperial Skean" "Imperial Staff" "Infernal Axe" "Iron Ring" "Ironscale Boots" "Ironscale Gauntlets" "Ivory Bow" "Ivory Spirit Shield" "Jewelled Foil" "Jingling Spirit Shield" "Judgement Staff" "Karui Chopper" "Lacewood Spirit Shield" "Lacquered Garb" "Lacquered Helmet" "Laminated Kite Shield" "Layered Kite Shield" "Lead Sceptre" "Legion Boots" "Legion Gloves" "Lion Sword" "Maelström Staff" "Magistrate Crown" "Mahogany Tower Shield" "Maple Round Shield" "Meatgrinder" "Mesh Boots" "Mind Cage" "Moonstone Ring" "Mosaic Kite Shield" "Necromancer Circlet" "Noble Tricorne" "Nubuck Boots" "Nubuck Gloves" "Oak Buckler" "Occultist's Vestment" "Ochre Sceptre" "Ornate Spiked Shield" "Paua Amulet" "Paua Ring" "Penetrating Arrow Quiver" "Plated Greaves" "Polished Spiked Shield" "Prismatic Ring" "Prophet Crown" "Quartz Sceptre" "Quartz Wand" "Ranger Bow" "Rawhide Gloves" "Reaver Helmet" "Regicide Mask" "Reinforced Greaves" "Ringmail Boots" "Ritual Sceptre" "Riveted Boots" "Royal Sceptre" "Royal Skean" "Runic Hatchet" "Rustic Sash" "Sage Wand" "Samite Gloves" "Samite Slippers" "Samnite Helmet" "Satin Slippers" "Scholar Boots" "Seaglass Amulet" "Secutor Helm" "Sekhem" "Sentinel Jacket" "Serpentscale Gauntlets" "Shackled Boots" "Shadow Sceptre" "Shagreen Tower Shield" "Sharkskin Gloves" "Sharkskin Tunic" "Sharktooth Arrow Quiver" "Siege Helmet" "Slaughter Knife" "Solaris Circlet" "Soldier Boots" "Soldier Gloves" "Spiked Round Shield" "Spike-Point Arrow Quiver" "Spiraled Foil" "Spiraled Wand" "Splendid Round Shield" "Stag Sceptre" "Steel Circlet" "Steel Kite Shield" "Steelscale Boots" "Steelscale Gauntlets" "Steelwood Bow" "Strapped Boots" "Strapped Mitts" "Studded Belt" "Sundering Axe" "Teak Round Shield" "Terror Claw" "Thorium Spirit Shield" "Throat Stabber" "Trapper Boots" "Trapper Mitts" "Two-Point Arrow Quiver" "Tyrant's Sekhem" "Ursine Pelt" "Vaal Axe" "Vaal Hatchet" "Varnished Coat" "Vile Arrow Quiver" "Void Axe" "Walnut Spirit Shield" "War Buckler" "Widowsilk Robe" "Wolf Pelt" "Zealot Boots" "Zealot Gloves"
+#	Corrupted False
+#	SetFontSize 30
+#	SetBorderColor 0 240 190 255
+#	PlayAlertSound 3 300
+#	PlayEffect Blue
+#	MinimapIcon 2 Blue Diamond
 
 #Show # # %D6 $type->exotic->fractured $tier->fractspecial
 #	FracturedItem True
@@ -2827,15 +2827,15 @@ Show # %D4 $type->socketslinks $tier->5linksleveling
 #	PlayAlertSound 2 300
 #	MinimapIcon 2 Yellow Star
 
-Show # %D3 $type->socketslinks $tier->5links
-	LinkedSockets >= 5
-	Rarity Normal Magic Rare
-	AreaLevel >= 68
-	SetFontSize 45
-	SetBorderColor 0 240 190 255
-	PlayAlertSound 3 300
-	PlayEffect Blue
-	MinimapIcon 2 Blue Diamond
+#Show # # %D3 $type->socketslinks $tier->5links
+#	LinkedSockets >= 5
+#	Rarity Normal Magic Rare
+#	AreaLevel >= 68
+#	SetFontSize 45
+#	SetBorderColor 0 240 190 255
+#	PlayAlertSound 3 300
+#	PlayEffect Blue
+#	MinimapIcon 2 Blue Diamond
 
 Show # %DS4 $type->socketslinks $tier->whitesocketweapons2h
 	Sockets >= 6WWWWWW
@@ -3095,17 +3095,17 @@ MinimapIcon 0 Blue Diamond
 #------------------------------------
 # !! Waypoint c3.gear.crafting84.all : "Crafting Bases - High level basetypes - ILVL84"
 
-Show # %D2 $type->normalcraft->i84 $tier->t1
-Mirrored False
-ItemLevel >= 84
-Rarity Normal Magic Rare
-BaseType == "Apothecary's Gloves" "Bone Helmet" "Crystal Belt" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Iolite Ring" "Marble Amulet" "Opal Ring" "Sacrificial Garb" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vermillion Ring"
-Corrupted False
-SetFontSize 45
-SetBorderColor 200 200 0 240
-PlayAlertSound 3 300
-PlayEffect White
-MinimapIcon 2 White Diamond
+#Show # # %D2 $type->normalcraft->i84 $tier->t1
+#	Mirrored False
+#	ItemLevel >= 84
+#	Rarity Normal Magic Rare
+#	BaseType == "Apothecary's Gloves" "Bone Helmet" "Crystal Belt" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Iolite Ring" "Marble Amulet" "Opal Ring" "Sacrificial Garb" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vermillion Ring"
+#	Corrupted False
+#	SetFontSize 45
+#	SetBorderColor 200 200 0 240
+#	PlayAlertSound 3 300
+#	PlayEffect White
+#	MinimapIcon 2 White Diamond
 
 #Show # # %D1 $type->normalcraft->i84 $tier->t2
 #	Mirrored False
@@ -3128,18 +3128,18 @@ MinimapIcon 2 White Diamond
 #------------------------------------
 # !! Waypoint c3.gear.crafting-others : "Crafting Bases - High level basetypes - others"
 
-Show # %D2 $type->normalcraft->rest $tier->t1
-Mirrored False
-ItemLevel <= 83
-ItemLevel >= 68
-Rarity Normal Magic Rare
-BaseType == "Apothecary's Gloves" "Bone Helmet" "Crystal Belt" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Iolite Ring" "Marble Amulet" "Opal Ring" "Sacrificial Garb" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vermillion Ring"
-Corrupted False
-SetFontSize 45
-SetBorderColor 255 255 255 255
-PlayAlertSound 3 300
-PlayEffect Grey
-MinimapIcon 2 Grey Diamond
+#Show # # %D2 $type->normalcraft->rest $tier->t1
+#	Mirrored False
+#	ItemLevel <= 83
+#	ItemLevel >= 68
+#	Rarity Normal Magic Rare
+#	BaseType == "Apothecary's Gloves" "Bone Helmet" "Crystal Belt" "Fingerless Silk Gloves" "Fugitive Boots" "Gripped Gloves" "Iolite Ring" "Marble Amulet" "Opal Ring" "Sacrificial Garb" "Spiked Gloves" "Steel Ring" "Stygian Vise" "Two-Toned Boots" "Vermillion Ring"
+#	Corrupted False
+#	SetFontSize 45
+#	SetBorderColor 255 255 255 255
+#	PlayAlertSound 3 300
+#	PlayEffect Grey
+#	MinimapIcon 2 Grey Diamond
 
 #Show # # %D0 $type->normalcraft->rest $tier->t2
 #	Mirrored False
@@ -3220,18 +3220,18 @@ Corrupted False
 SetFontSize 40
 SetBorderColor 0 240 190 180
 
-Show # %D1 $type->normalcraft->lowstrict $tier->earlyendgame4link
-	Mirrored False
-	LinkedSockets >= 4
-	ItemLevel >= 68
-	ItemLevel <= 83
-	Rarity Normal Magic Rare
-	Class == "Body Armours" "Boots" "Gloves" "Helmets"
-	Corrupted False
-	AreaLevel <= 72
-	AreaLevel >= 68
-	SetBorderColor 100 100 100 150
-	SetBackgroundColor 20 20 0 180
+#Show # # %D1 $type->normalcraft->lowstrict $tier->earlyendgame4link
+#	Mirrored False
+#	LinkedSockets >= 4
+#	ItemLevel >= 68
+#	ItemLevel <= 83
+#	Rarity Normal Magic Rare
+#	Class == "Body Armours" "Boots" "Gloves" "Helmets"
+#	Corrupted False
+#	AreaLevel <= 72
+#	AreaLevel >= 68
+#	SetBorderColor 100 100 100 150
+#	SetBackgroundColor 20 20 0 180
 
 #------------------------------------
 #   [1208] Chisel Recipes
@@ -3403,7 +3403,7 @@ SetBackgroundColor 130 110 110 255
 #Show # # %D3 $type->endgameflasks $tier->any20qualflask
 #	Quality >= 20
 #	Rarity Normal
-#	BaseType "Flask"
+#	Class "Flask"
 #	AreaLevel >= 68
 #	SetFontSize 45
 #	SetTextColor 255 255 255 255
@@ -3439,7 +3439,7 @@ SetBackgroundColor 25 100 75
 #Show # # %D1 $type->endgameflasks $tier->qualityhigh
 #	Quality >= 15
 #	Rarity Normal Magic
-#	BaseType "Flask"
+#	Class "Flask"
 #	AreaLevel >= 68
 #	AreaLevel <= 77
 #	SetFontSize 40
@@ -3450,7 +3450,7 @@ SetBackgroundColor 25 100 75
 #Show # # %D0 $type->endgameflasks $tier->qualitylow
 #	Quality >= 1
 #	Rarity Normal Magic
-#	BaseType "Flask"
+#	Class "Flask"
 #	AreaLevel >= 68
 #	AreaLevel <= 77
 #	SetFontSize 35
@@ -7133,7 +7133,7 @@ MinimapIcon 1 Yellow Circle
 
 Show # %HS3 $type->currency $tier->t6chrom
 Class "Currency"
-BaseType == "Ancient Shard" "Chromatic Orb" "Orb of Binding" "Horizon Shard"
+BaseType == "Ancient Shard" "Orb of Binding" "Horizon Shard"
 SetFontSize 45
 SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
@@ -7144,7 +7144,7 @@ DisableDropSound True
 
 Hide # %H3 $type->currency $tier->t7chance
 Class "Currency"
-BaseType == "Engineer's Orb" "Harbinger's Shard" "Jeweller's Orb" "Orb of Alteration" "Orb of Chance" "Cartographer's Chisel"
+BaseType == "Engineer's Orb" "Harbinger's Shard" "Jeweller's Orb" "Orb of Alteration" "Orb of Chance" "Cartographer's Chisel" "Chromatic Orb"
 SetFontSize 45
 SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
@@ -7695,7 +7695,7 @@ MinimapIcon 0 Pink Circle
 
 Show # $type->currency->trial->tattoo $tier->t1
 Class "Currency"
-BaseType == "Honoured Tattoo of the Barbarian" "Honoured Tattoo of the Berserker" "Honoured Tattoo of the Hunter" "Honoured Tattoo of the Mountain" "Honoured Tattoo of the Pa" "Honoured Tattoo of the Storm" "Honoured Tattoo of the Warlord" "Honoured Tattoo of the Wise" "Tattoo of the Ramako Makanga"
+BaseType == "Honoured Tattoo of the Barbarian" "Honoured Tattoo of the Berserker" "Honoured Tattoo of the Hunter" "Honoured Tattoo of the Makanga" "Honoured Tattoo of the Mountain" "Honoured Tattoo of the Pa" "Honoured Tattoo of the Storm" "Honoured Tattoo of the Warlord" "Honoured Tattoo of the Wise" "Journey Tattoo of Makanui" "Journey Tattoo of the Body" "Journey Tattoo of the Mind" "Tattoo of the Arohongui Makanga" "Tattoo of the Ramako Makanga"
 SetFontSize 45
 SetTextColor 255 0 0 255
 SetBorderColor 255 0 0 255
@@ -7706,7 +7706,7 @@ MinimapIcon 0 Red Star
 
 Show # $type->currency->trial->tattoo $tier->t2
 Class "Currency"
-BaseType == "Honoured Tattoo of the Flock" "Honoured Tattoo of the Flood" "Honoured Tattoo of the Hatungo" "Tattoo of the Arohongui Makanga" "Tattoo of the Hinekora Makanga" "Tattoo of the Kitava Makanga" "Tattoo of the Ngamahu Makanga" "Tattoo of the Rongokurai Makanga" "Tattoo of the Tasalio Makanga" "Tattoo of the Tawhoa Makanga" "Tattoo of the Tukohama Makanga" "Tattoo of the Valako Makanga"
+BaseType == "Ancestral Tattoo of Bloodlines" "Honoured Tattoo of the Flock" "Honoured Tattoo of the Flood" "Honoured Tattoo of the Hatungo" "Journey Tattoo of the Soul" "Tattoo of the Hinekora Makanga" "Tattoo of the Kitava Makanga" "Tattoo of the Ngamahu Makanga" "Tattoo of the Rongokurai Makanga" "Tattoo of the Tasalio Makanga" "Tattoo of the Tawhoa Makanga" "Tattoo of the Tukohama Makanga" "Tattoo of the Valako Makanga"
 SetFontSize 45
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
@@ -7717,7 +7717,7 @@ MinimapIcon 0 Red Circle
 
 Show # $type->currency->trial->tattoo $tier->t3
 Class "Currency"
-BaseType == "Honoured Tattoo of the Dove" "Honoured Tattoo of the Oak" "Honoured Tattoo of the Tuatara" "Loyalty Tattoo of Ahuana" "Loyalty Tattoo of Ikiaho" "Tattoo of the Ngamahu Warmonger" "Tattoo of the Ramako Fleetfoot" "Tattoo of the Ramako Shaman" "Tattoo of the Ramako Sniper" "Tattoo of the Rongokurai Turtle" "Tattoo of the Tawhoa Herbalist" "Tattoo of the Tukohama Warcaller" "Tattoo of the Valako Stormrider"
+BaseType == "Honoured Tattoo of the Dove" "Honoured Tattoo of the Oak" "Honoured Tattoo of the Pillager" "Honoured Tattoo of the Tuatara" "Loyalty Tattoo of Ahuana" "Loyalty Tattoo of Ikiaho" "Tattoo of the Ngamahu Warmonger" "Tattoo of the Ramako Fleetfoot" "Tattoo of the Ramako Shaman" "Tattoo of the Ramako Sniper" "Tattoo of the Rongokurai Turtle" "Tattoo of the Tawhoa Herbalist" "Tattoo of the Tukohama Warcaller" "Tattoo of the Valako Stormrider"
 SetFontSize 45
 SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
@@ -7728,7 +7728,7 @@ MinimapIcon 1 Yellow Circle
 
 Show # $type->currency->trial->tattoo $tier->t4
 Class "Currency"
-BaseType == "Honoured Tattoo of the Pillager" "Honoured Tattoo of the Sky" "Honoured Tattoo of the Turtle" "Loyalty Tattoo of Akoya" "Loyalty Tattoo of Kahuturoa" "Loyalty Tattoo of Kaom" "Loyalty Tattoo of Kiloava" "Loyalty Tattoo of Maata" "Loyalty Tattoo of Rakiata" "Loyalty Tattoo of Tawhanuku" "Loyalty Tattoo of Utula" "Tattoo of the Arohongui Moonwarden" "Tattoo of the Arohongui Scout" "Tattoo of the Arohongui Shaman" "Tattoo of the Arohongui Warmonger" "Tattoo of the Arohongui Warrior" "Tattoo of the Hinekora Deathwarden" "Tattoo of the Hinekora Shaman" "Tattoo of the Hinekora Storyteller" "Tattoo of the Hinekora Warmonger" "Tattoo of the Hinekora Warrior" "Tattoo of the Kitava Blood Drinker" "Tattoo of the Kitava Heart Eater" "Tattoo of the Kitava Rebel" "Tattoo of the Kitava Shaman" "Tattoo of the Kitava Warrior" "Tattoo of the Ngamahu Firewalker" "Tattoo of the Ngamahu Shaman" "Tattoo of the Ngamahu Warrior" "Tattoo of the Ngamahu Woodcarver" "Tattoo of the Ramako Archer" "Tattoo of the Ramako Scout" "Tattoo of the Rongokurai Brute" "Tattoo of the Rongokurai Goliath" "Tattoo of the Rongokurai Guard" "Tattoo of the Rongokurai Warrior" "Tattoo of the Tasalio Bladedancer" "Tattoo of the Tasalio Scout" "Tattoo of the Tasalio Shaman" "Tattoo of the Tasalio Tideshifter" "Tattoo of the Tasalio Warrior" "Tattoo of the Tawhoa Naturalist" "Tattoo of the Tawhoa Scout" "Tattoo of the Tawhoa Shaman" "Tattoo of the Tawhoa Warrior" "Tattoo of the Tukohama Brawler" "Tattoo of the Tukohama Shaman" "Tattoo of the Tukohama Warmonger" "Tattoo of the Tukohama Warrior" "Tattoo of the Valako Scout" "Tattoo of the Valako Shaman" "Tattoo of the Valako Shieldbearer" "Tattoo of the Valako Warrior"
+BaseType == "Honoured Tattoo of the Sky" "Honoured Tattoo of the Turtle" "Loyalty Tattoo of Akoya" "Loyalty Tattoo of Kahuturoa" "Loyalty Tattoo of Kaom" "Loyalty Tattoo of Kiloava" "Loyalty Tattoo of Maata" "Loyalty Tattoo of Rakiata" "Loyalty Tattoo of Tawhanuku" "Loyalty Tattoo of Utula" "Tattoo of the Arohongui Moonwarden" "Tattoo of the Arohongui Scout" "Tattoo of the Arohongui Shaman" "Tattoo of the Arohongui Warmonger" "Tattoo of the Arohongui Warrior" "Tattoo of the Hinekora Deathwarden" "Tattoo of the Hinekora Shaman" "Tattoo of the Hinekora Storyteller" "Tattoo of the Hinekora Warmonger" "Tattoo of the Hinekora Warrior" "Tattoo of the Kitava Blood Drinker" "Tattoo of the Kitava Heart Eater" "Tattoo of the Kitava Rebel" "Tattoo of the Kitava Shaman" "Tattoo of the Kitava Warrior" "Tattoo of the Ngamahu Firewalker" "Tattoo of the Ngamahu Shaman" "Tattoo of the Ngamahu Warrior" "Tattoo of the Ngamahu Woodcarver" "Tattoo of the Ramako Archer" "Tattoo of the Ramako Scout" "Tattoo of the Rongokurai Brute" "Tattoo of the Rongokurai Goliath" "Tattoo of the Rongokurai Guard" "Tattoo of the Rongokurai Warrior" "Tattoo of the Tasalio Bladedancer" "Tattoo of the Tasalio Scout" "Tattoo of the Tasalio Shaman" "Tattoo of the Tasalio Tideshifter" "Tattoo of the Tasalio Warrior" "Tattoo of the Tawhoa Naturalist" "Tattoo of the Tawhoa Scout" "Tattoo of the Tawhoa Shaman" "Tattoo of the Tawhoa Warrior" "Tattoo of the Tukohama Brawler" "Tattoo of the Tukohama Shaman" "Tattoo of the Tukohama Warmonger" "Tattoo of the Tukohama Warrior" "Tattoo of the Valako Scout" "Tattoo of the Valako Shaman" "Tattoo of the Valako Shieldbearer" "Tattoo of the Valako Warrior"
 SetFontSize 45
 SetTextColor 0 0 0 255
 SetBorderColor 0 0 0 255
@@ -8173,16 +8173,16 @@ Show # $type->uniques $tier->exrationaljewel
 	MinimapIcon 0 Red Star
 
 Show # $type->uniques $tier->exsynth
-	SynthesisedItem True
-	Rarity Unique
-	Class == "Rings"
-	SetFontSize 45
-	SetTextColor 255 255 255 255
-	SetBorderColor 255 255 255 255
-	SetBackgroundColor 175 96 37 255
-	PlayAlertSound 1 300
-	PlayEffect Red
-	MinimapIcon 0 Yellow Star
+SynthesisedItem True
+Rarity Unique
+BaseType == "Amethyst Ring" "Iron Ring" "Ruby Ring" "Sapphire Ring" "Topaz Ring"
+SetFontSize 45
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 175 96 37 255
+PlayAlertSound 1 300
+PlayEffect Red
+MinimapIcon 0 Yellow Star
 
 Show # $type->uniques $tier->ex6link
 	LinkedSockets 6
@@ -8616,7 +8616,7 @@ Show # %H3 $type->leveling->flasks->utility $tier->any
 #	PlayEffect Grey Temp
 
 #Show # # %D1 $type->leveling->flasks->quality $tier->high
-#	Quality >= 15
+#	Quality >= 14
 #	Rarity Normal
 #	Class "Flask"
 #	SetFontSize 40
