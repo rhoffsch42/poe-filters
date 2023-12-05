@@ -1,3 +1,108 @@
+# Chaos Recipe START - Filter Manipulation by Chaos Recipe Enhancer
+
+Show
+	HasInfluence None
+	Rarity Rare
+	Identified False
+	ItemLevel >= 60
+	Class "Helmets"
+	SetBackgroundColor 255 122 255 255
+	Sockets < 6
+	LinkedSockets < 5
+	SetFontSize 40
+	SetTextColor 255 255 255 255
+	SetBorderColor 0 0 0
+	MinimapIcon 2 White Star
+	
+Show
+	HasInfluence None
+	Rarity Rare
+	Identified False
+	ItemLevel >= 60
+	Class "Gloves"
+	SetBackgroundColor 255 122 255 255
+	Sockets < 6
+	LinkedSockets < 5
+	SetFontSize 40
+	SetTextColor 255 255 255 255
+	SetBorderColor 0 0 0
+	MinimapIcon 2 White Star
+	
+Show
+	HasInfluence None
+	Rarity Rare
+	Identified False
+	ItemLevel >= 60
+	Class "Rings"
+	SetBackgroundColor 255 0 255 255
+	Sockets < 6
+	LinkedSockets < 5
+	SetFontSize 40
+	SetTextColor 255 255 255 255
+	SetBorderColor 0 0 0
+	MinimapIcon 2 White Star
+	
+Show
+	HasInfluence None
+	Rarity Rare
+	Identified False
+	ItemLevel >= 60
+	Class "Amulets"
+	SetBackgroundColor 255 0 255 255
+	Sockets < 6
+	LinkedSockets < 5
+	SetFontSize 40
+	SetTextColor 255 255 255 255
+	SetBorderColor 0 0 0
+	MinimapIcon 2 White Star
+	
+Show
+	HasInfluence None
+	Rarity Rare
+	Identified False
+	ItemLevel >= 60
+	Class "Belts"
+	SetBackgroundColor 255 0 255 255
+	Sockets < 6
+	LinkedSockets < 5
+	SetFontSize 40
+	SetTextColor 255 255 255 255
+	SetBorderColor 0 0 0
+	MinimapIcon 2 White Star
+	
+Show
+	HasInfluence None
+	Rarity Rare
+	Identified False
+	ItemLevel >= 60
+	Class "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Rune Daggers" "Sceptres" "Thrusting One Hand Swords" "Wands"
+	Width <= 1
+	Height <= 3
+	SetBackgroundColor 255 122 255 255
+	Sockets < 6
+	LinkedSockets < 5
+	SetFontSize 40
+	SetTextColor 255 255 255 255
+	SetBorderColor 0 0 0
+	MinimapIcon 2 White Star
+	
+Show
+	HasInfluence None
+	Rarity Rare
+	Identified False
+	ItemLevel >= 60
+	Class "Two Hand Swords" "Two Hand Axes" "Two Hand Maces" "Staves" "Warstaves" "Bows"
+	Width <= 2
+	Height <= 3
+	SetBackgroundColor 255 122 255 255
+	Sockets < 6
+	LinkedSockets < 5
+	SetFontSize 40
+	SetTextColor 255 255 255 255
+	SetBorderColor 0 0 0
+	MinimapIcon 2 White Star
+	
+# Chaos Recipe END - Filter Manipulation by Chaos Recipe Enhancer
 #===============================================================================================================
 # NeverSink's Indepth Loot Filter - for Path of Exile
 #===============================================================================================================
