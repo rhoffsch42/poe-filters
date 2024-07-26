@@ -1005,45 +1005,32 @@ Show # %D6 $type->exoticbaseslower $tier->exoticsacrificial
 
 # FilterBlade: Conditional Entry
 Show
+SetBorderColor 255 0 0 255
+SetFontSize 45
+ItemLevel >= 1
+Rarity Normal Magic
+BaseType == "Chain Belt"
+SetBackgroundColor 0 0 0 255
+MinimapIcon 2 Blue Circle
+PlayEffect Grey Temp
+ItemLevel <= 22
+PlayAlertSound 2 300
+
+# FilterBlade: Conditional Entry
+Show
 SetBorderColor 82 200 0
 SetFontSize 45
 ItemLevel >= 1
 Rarity Normal Magic
-Class == "Body Armours" "Boots" "Gloves" "Helmets"
+Class == "Body Armours" "Boots" "Gloves" "Helmets" "Shields"
 LinkedSockets = 3
 ItemLevel <= 22
 SetBackgroundColor 0 0 0 255
-CustomAlertSound "sounds\mine\3links-dex.mp3" 300
-MinimapIcon 0 Green Circle
+CustomAlertSound "sounds\mine\3links-intel.mp3" 300
+MinimapIcon 0 Blue Circle
 PlayEffect Grey Temp
-BaseEnergyShield = 0
 BaseArmour = 0
-
-# FilterBlade: Conditional Entry
-Show
-SetBorderColor 255 0 0 255
-SetFontSize 45
-ItemLevel >= 1
-Rarity Normal Magic
-BaseType == "Rustic Sash"
-SetBackgroundColor 0 0 0 255
-CustomAlertSound "sounds\mine\rustic.mp3" 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-ItemLevel <= 22
-
-# FilterBlade: Conditional Entry
-Show
-SetBorderColor 255 0 0 255
-SetFontSize 45
-ItemLevel >= 1
-Rarity Normal Magic
-SetBackgroundColor 0 0 0 255
-CustomAlertSound "sounds\mine\ironring.mp3" 300
-MinimapIcon 0 Red Circle
-PlayEffect Grey Temp
-BaseType == "Iron Ring"
-ItemLevel <= 30
+BaseEvasion = 0
 
 #===============================================================================================================
 # [[0600]] IDENTIFIED MOD FILTERING - COMBINATIONS
@@ -9480,53 +9467,53 @@ Show # $type->leveling->flasks->mana $tier->t12
 
 # FilterBlade: Conditional Entry
 Show
-SocketGroup "GGG"
+SocketGroup "BBB"
 SetBorderColor 82 200 0
 SetFontSize 45
-Class == "Helmets" "Gloves" "Boots" "Body Armours" "Bows"
+Class == "Helmets" "Gloves" "Boots" "Body Armours" "Shields" "Sceptres" "Wands"
 Rarity Normal Magic
 SetBackgroundColor 0 0 0 255
-CustomAlertSound "sounds\mine\GGG.mp3" 300
-MinimapIcon 0 Green Circle
+CustomAlertSound "sounds\mine\BBB.mp3" 300
+MinimapIcon 0 Blue Circle
 PlayEffect Grey Temp
 ItemLevel < 24
 
 # FilterBlade: Conditional Entry
 Show
-SocketGroup "GGB" "BGG" "GBG"
+SocketGroup "BBG" "GBB" "BGB"
 SetBorderColor 82 200 0
 SetFontSize 45
-Class == "Helmets" "Gloves" "Boots" "Body Armours" "Bows"
+Class == "Helmets" "Gloves" "Boots" "Body Armours" "Shields" "Sceptres" "Wands"
 Rarity Normal Magic
 SetBackgroundColor 0 0 0 255
-CustomAlertSound "sounds\mine\GGB.mp3" 300
-MinimapIcon 0 Green Circle
+CustomAlertSound "sounds\mine\BBG.mp3" 300
+MinimapIcon 0 Blue Circle
 PlayEffect Grey Temp
 ItemLevel < 24
 
 # FilterBlade: Conditional Entry
 Show
-SocketGroup "GGR" "RGG" "GRG"
+SocketGroup "BBG" "GBB" "BGB"
 SetBorderColor 82 200 0
 SetFontSize 45
-Class == "Helmets" "Gloves" "Boots" "Body Armours" "Bows"
+Class == "Helmets" "Gloves" "Boots" "Body Armours" "Shields" "Sceptres" "Wands"
 Rarity Normal Magic
 SetBackgroundColor 0 0 0 255
-CustomAlertSound "sounds\mine\GGR.mp3" 300
-MinimapIcon 0 Green Circle
+CustomAlertSound "sounds\mine\BBG.mp3" 300
+MinimapIcon 0 Blue Circle
 PlayEffect Grey Temp
 ItemLevel < 24
 
 # FilterBlade: Conditional Entry
 Show
-SocketGroup "GG"
+SocketGroup "BB"
 SetBorderColor 82 200 0
 SetFontSize 45
-Class == "Helmets" "Gloves" "Boots" "Body Armours" "Bows"
+Class == "Helmets" "Gloves" "Boots" "Body Armours" "Shields" "Sceptres" "Wands"
 Rarity Normal Magic
 SetBackgroundColor 0 0 0 255
-CustomAlertSound "sounds\mine\GG.mp3" 300
-MinimapIcon 1 Green Circle
+CustomAlertSound "sounds\mine\BB.mp3" 300
+MinimapIcon 1 Blue Circle
 PlayEffect Grey Temp
 ItemLevel < 12
 
@@ -9609,13 +9596,13 @@ Show # %D4 $type->leveling->rare->armours $tier->bootsfocus
 
 # FilterBlade: Conditional Entry
 Show
-Sockets >= "2GG"
+Sockets >= "2BB"
 SetBorderColor 82 200 0
 SetFontSize 45
-Class == "Helmets" "Gloves" "Boots" "Body Armours"
+Class == "Helmets" "Gloves" "Boots" "Body Armours" "Shields" "Sceptres" "Wands"
 Rarity Normal Magic
 SetBackgroundColor 0 0 0 255
-MinimapIcon 2 Green Circle
+MinimapIcon 2 Blue Circle
 PlayEffect Grey Temp
 ItemLevel < 12
 
@@ -9649,402 +9636,6 @@ Show # %D4 $type->leveling->rare->armours $tier->quivers
 #   [4804] Rares - Caster
 #------------------------------------
 # !! Waypoint c11.leveling.rares.caster : "Leveling - Rares - Caster"
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 45
-BaseType "Crude Bow"
-ItemLevel <= 4
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Glass Shank"
-ItemLevel <= 4
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Nailed Fist"
-ItemLevel <= 6
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 45
-BaseType "Short Bow"
-ItemLevel <= 8
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Skinning Knife"
-ItemLevel <= 14
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Sharktooth Claw"
-ItemLevel <= 11
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 45
-BaseType "Long Bow"
-ItemLevel <= 65
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Stiletto"
-ItemLevel <= 29
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Awl"
-ItemLevel <= 16
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Flaying Knife"
-ItemLevel <= 35
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Cat's Paw"
-ItemLevel <= 21
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Prong Dagger"
-ItemLevel <= 40
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Blinder"
-ItemLevel <= 25
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Poignard"
-ItemLevel <= 50
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Timeworn Claw"
-ItemLevel <= 29
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Trisula"
-ItemLevel <= 55
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Sparkling Claw"
-ItemLevel <= 33
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Gutting Knife"
-ItemLevel <= 59
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Fright Claw"
-ItemLevel <= 35
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Ambusher"
-ItemLevel <= 65
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Double Claw"
-ItemLevel <= 36
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Thresher Claw"
-ItemLevel <= 39
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Gouger"
-ItemLevel <= 42
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Tiger's Paw"
-ItemLevel <= 45
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Gut Ripper"
-ItemLevel <= 48
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Prehistoric Claw"
-ItemLevel <= 51
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Noble Claw"
-ItemLevel <= 54
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Eagle Claw"
-ItemLevel <= 56
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Twin Claw"
-ItemLevel <= 57
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Great White Claw"
-ItemLevel <= 59
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Throat Stabber"
-ItemLevel <= 61
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Hellion's Paw"
-ItemLevel <= 63
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
-
-# FilterBlade: Conditional Entry
-Show
-Rarity Normal Magic
-SetBorderColor 255 0 0 255
-SetFontSize 35
-BaseType "Eye Gouger"
-ItemLevel <= 65
-SetBackgroundColor 0 0 0 255
-PlayAlertSound 11 300
-MinimapIcon 2 Red Circle
-PlayEffect Grey Temp
 
 Show # %D4 $type->leveling->rare->caster $tier->earlylevels
 	ItemLevel <= 16
